@@ -1,0 +1,7 @@
+node_modules/
+_site/
+
+# OS/Editor auto-generated files
+.DS_Store
+Thumbs.db
+.vscode/

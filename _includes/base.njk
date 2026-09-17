@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{title or "𝒱𝓌𝑒𝑔𝒷𝒶"}}</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body>
+        <header>
+            {% if page.url == "/" %}
+            <h1>Info</h1>
+            <p>
+                I'm Vwegba. Indie hacker. <br> 
+                I tattoo and play football in my spare time. I also write about what I'm learning or building.</p>
+            {% else %}
+            <a href="/">← Back</a>
+            {% endif %}
+        </header>
+
+        <main>
+            {% if title %}
+            <h1>{{ title }}</h1>
+            {% endif %}
+
+            {% if date %}
+            <p><time>{{ date | dateFilter }}</time></p>
+            {% endif %}
+
+            {{ content | safe }}
+        </main>
+
+        <footer>
+            <a href="https://github.com/heisvwegba">Github</a>
+            <a href="https://x.com/vwegba">X</a>
+            <a href="mailto:maxwelleaster00@gmail.com">Email</a>
+        </footer>
+    </body>
+</html>
+

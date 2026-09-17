@@ -1,0 +1,89 @@
+:root {
+    --link-color: #d1d0a9;
+    --font-heading: normal 1.5rem 'Tinos', serif;
+    --font-primary: normal .9rem 'Iosevka Charon', Consolas, monospace;
+    --font-link: normal 1rem 'Tinos', serif;
+}
+
+body {
+    margin: 0;
+    display: flex; 
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #141414;
+    box-sizing: border-box;
+    color: #eee4de;
+    padding: 2em;
+    gap: 2em;
+}
+
+h1 {
+    font: var(--font-heading);
+}
+
+p {
+    font: var(--font-primary);
+}
+
+ul {
+    padding: 0;
+    margin: 0; 
+
+    & li {
+        margin-bottom: .3em;
+        list-style: square inside;
+    }
+}
+
+a {
+    font: var(--font-link);
+    color: var(--link-color);
+    text-decoration: none;
+    transition-duration: .5s;
+    
+    &:hover {
+        color: #eee4de;
+    }
+}
+
+main {
+    flex: 1;
+    font: var(--font-primary);
+
+    & :is(h1, h2, h3, h4, h5, h6) {
+        font: var(--font-heading);
+        margin-bottom: 0.4em;
+    }
+
+    & p {
+        margin-top: 0;
+        line-height: 1.6;
+    }
+
+    & strong, b {
+        font-weight: 600;
+        font-size: inherit;
+    }
+
+    & ul {
+        padding-left: 1.2em; 
+        margin: 1em 0;
+    }
+
+    & li {
+        list-style-type: square;
+        list-style-position: outside; 
+        margin-bottom: 0.6em;
+    }
+}
+
+footer {
+    margin-top: auto;
+    color: var(--link-color);
+    display: flex;
+    gap: .5em;
+
+    & a {
+        font-size: .9rem;
+    }
+}
