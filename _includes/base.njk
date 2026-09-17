@@ -2,29 +2,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{title or "𝒱𝓌𝑒𝑔𝒷𝒶"}}</title>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
         <!-- Basic SEO -->
-        <title>{{ title | default("Vwegba's Blog") }}</title>
+        <title>{{ title | default("𝒱𝓌𝑒𝑔𝒷𝒶") }}</title>
         <meta name="description" content="{{ description | default("A minimalist blog on tech, building lean software, and indie hacking.") }}">
         <link rel="canonical" href="https://vwegba.vercel.app{{ page.url }}">
 
         <!-- Open Graph / Facebook / LinkedIn / Discord -->
         <meta property="og:type" content="article">
-        <meta property="og:title" content="{{ title | default("Vwegba's Blog") }}">
+        <meta property="og:title" content="{{ title | default("𝒱𝓌𝑒𝑔𝒷𝒶") }}">
         <meta property="og:description" content="{{ description | default("A minimalist blog on tech, building lean software, and indie hacking.") }}">
         <meta property="og:url" content="https://vwegba.vercel.app{{ page.url }}">
         <meta property="og:site_name" content="Vwegba's Blog">
-        <meta property="og:image" content="https://vwegba.vercel.app/css/og-image.png">
+        <meta property="og:image" content="https://vwegba.vercel.app/css/icon.jpg">
 
         <!-- Twitter / X Cards -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="{{ title | default("Vwegba's Blog") }}">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="{{ title | default("𝒱𝓌𝑒𝑔𝒷𝒶") }}">
         <meta name="twitter:description" content="{{ description | default("A minimalist blog on tech, building lean software, and indie hacking.") }}">
-        <meta name="twitter:image" content="https://vwegba.vercel.app/css/og-image.png">
+        <meta name="twitter:image" content="https://vwegba.vercel.app/css/icon.jpg">
 
         <!-- Preload fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,7 +40,8 @@
             <h1>Info</h1>
             <p>
                 I'm Vwegba. Indie hacker. <br> 
-                I tattoo and play football in my spare time. I also write about what I'm learning or building.</p>
+                I tattoo and play football in my spare time. I also write about what I'm learning or building.
+            </p>
             {% else %}
             <a href="/">← Back</a>
             {% endif %}
@@ -69,4 +66,3 @@
         </footer>
     </body>
 </html>
-
