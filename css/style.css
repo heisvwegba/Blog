@@ -26,6 +26,17 @@ p {
     font: var(--font-primary);
 }
 
+a {
+    font: var(--font-link);
+    color: var(--link-color);
+    text-decoration: none;
+    transition-duration: .5s;
+    
+    &:hover {
+        color: #eee4de;
+    }
+}
+
 ul {
     padding: 0;
     margin: 0; 
@@ -37,17 +48,6 @@ ul {
 
     & a {
         font-size: 1.2rem;
-    }
-}
-
-a {
-    font: var(--font-link);
-    color: var(--link-color);
-    text-decoration: none;
-    transition-duration: .5s;
-    
-    &:hover {
-        color: #eee4de;
     }
 }
 
@@ -87,8 +87,4 @@ footer {
     color: var(--link-color);
     display: flex;
     gap: .5em;
-
-    & a {
-        font-size: .9rem;
-    }
 }
