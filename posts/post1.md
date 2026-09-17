@@ -15,7 +15,6 @@ I wanted a setup that gives me full control over my CSS while allowing me to wri
 * **Zero extra JavaScript overhead:** It outputs clean, static HTML files.
 * **Fast local preview:** Changes compile almost instantly as I write.
 
-<br>
 
 ### Key Technical Decisions
 
@@ -23,7 +22,6 @@ I wanted a setup that gives me full control over my CSS while allowing me to wri
 * **Minimal Dependencies:** Uses minimal build configuration with plain Markdown parsing.
 * **Date Parsing:** Custom Node.js filters format publication dates smoothly across timezones.
 
-<br>
 
 ### What's Next?
 

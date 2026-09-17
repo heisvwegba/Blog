@@ -16,7 +16,6 @@ To do that without getting buried under endless configuration files and framewor
 * **SvelteKit & Supabase:** The engine for dynamic ideas and SaaS apps. SvelteKit keeps the front-end lean with minimal boilerplate, while Supabase handles database, auth, and backend logic without managing servers.
 * **11ty:** The static generator behind this blog. It compiles Markdown straight to static HTML with zero client-side JavaScript required.
 
-<br>
 
 ### Core Philosophy
 
@@ -27,7 +26,6 @@ Building as a solo creator means every added dependency is a potential future br
 * **Ownership Over Abstractions:** Understand what the code is doing under the hood instead of hiding behind layers of magic.
 * **Project Maintainability:** Write code today that I can open in two years and still understand instantly.
 
-<br>
 
 ### Fundamentals First
 
