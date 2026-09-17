@@ -25,4 +25,4 @@ I wanted a setup that gives me full control over my CSS while allowing me to wri
 
 ### What's Next?
 
-Now that the foundation is live, I'll be sharing notes on software projects, tattoo art, and continuous learning.
+Now that the foundation is live, I'll be sharing notes on software projects, random thoughts and continuous learning.
