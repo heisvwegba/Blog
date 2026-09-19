@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve", 
+    "start": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +13,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
