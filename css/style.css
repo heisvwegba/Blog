@@ -56,7 +56,8 @@ main {
     font: var(--font-primary);
 
     & :is(h1, h2, h3, h4, h5, h6) {
-        font: var(--font-heading);
+        font-family: 'Tinos';
+        font-weight: lighter;
         margin-bottom: 0.4em;
     }
 
@@ -88,3 +89,19 @@ footer {
     display: flex;
     gap: .8em;
 }
+
+/* Container for code blocks */
+pre {
+    max-width: 500px;
+    color: inherit;
+    border: 1px double #6a9696;
+    border-radius: 3px;
+    padding: 12px 16px;
+    overflow-x: auto;
+    white-space: pre;
+    
+    & code {
+        font: normal 14px "Anonymous Pro", monospace;
+    }
+}
+
